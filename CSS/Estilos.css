@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@1,100&display=swap');
+/*font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    }
+
+
+/*estilos para el ACORDEON*/  
+
+.contenedorAcordeon{
+    width: 100%;
+    margin-top: 1px;
+    border-top: solid;
+}
+.contenedorAcordeon h2{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.contenedorAcordeon P{
+    font-size: 10px;
+    margin-left: 2PX;
+}
+
+.acordeon{
+    background: #fff;
+}
+.acordeon label{
+    display: block;
+    padding-left: 8px;
+    font-size: 12px;
+    background: white;
+    color: black;
+    transition: all 300ms ease;
+    border-bottom: solid 0.5px;
+    padding-bottom: 5px;  
+    
+  
+}
+.acordeon label:hover{
+    background: rgb(1, 22, 15);
+    color: aliceblue;
+    border-bottom: none;
+
+
+}
+.acordeon label i{
+    font-size: 18px;
+   margin-left:8px;
+   
+}
+.acordeon .contenidoAcordeon{
+    padding: 0px;
+    margin: 0px 10px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btnacordeon:checked ~ .contenidoAcordeon{
+    max-height: 600px;
+    padding: 2px 0px;
+}
+.btnacordeon{
+    display: none;
+}
+
+
+
+
+/*estilos para el FOOTER*/  
+    footer{
+        background-color: #98dbc6;
+        color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 1px;     
+    }
+.barraI ul li{
+        list-style:none;
+        display: inline-block;        
+
+    }
+
+    .barraI a{
+        text-decoration: none;
+        color: black;
+        font-weight:bold;
+        font-size: 13px;
+        margin: 10px 10px;    
+    }
+
+    .barraI a:hover{
+        text-shadow: 0 2px 5px rgb(69, 72, 77);
+        transition: 0.5s;
+}
+
+    .inferior{
+        display:flex;
+        justify-content: space-between;
+    }
+    .inferior p{
+        margin-top: 8px;
+        font-size: 8px;
+    }
+
+    .redes a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size:10px;
+    }
+    .redes a:hover{
+        
+        text-shadow: 0 2px 5px rgb(69, 72, 77);
+        transition: 0.5s;
+}
+.subir{
+        height: 25px;
+        width: 25px;
+        background-color: #98dbc6;
+        color: white;
+        text-decoration: none;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 3px #fff;
+        
+        }
+        .subir:hover{
+            transform: scale(0.9);
+            background-color:rgb(69, 72, 77) ;
+        }
+
+
+        /*media queries inicia*/
+
+@media only screen and (min-width:480px){
+  /*Media query de acordeon*/  
+    .contenedorAcordeon h2{
+      font-size: 18px;
+      margin-top: 10px;
+      margin-left: 6px;
+      
+    }
+    .contenedorAcordeon P{
+        font-size: 13px;
+        margin-left: 6px;
+       }
+    .acordeon label{
+        font-size: 15px;  
+        padding-left: 15px; 
+    }
+    .acordeon label i{
+    font-size: 28px;
+    margin-left: 4px;
+    }
+       
+    /*Media query Footer*/
+    footer{
+    padding: 4px;
+    }
+    .barraI a{
+    font-size: 15px;
+    margin: 12px 12px;
+    }
+    .inferior p{
+        margin-top: 13px;
+        font-size: 12px;
+    }   
+.redes a{
+    color: rgb(8, 8, 8);
+    letter-spacing: 1px;
+    font-size:15px;
+    }
+.subir{
+    font-size: 25px;
+    border-radius: 25px;
+    right: 13px;
+    bottom: 13px;
+    height: 30px;
+    width: 30px;
+    }  
+}
+
+@media only screen and (min-width:768px)and (max-width:1024px){
+
+     /*Media query de acordeon*/  
+     .contenedorAcordeon h2{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 8px;
+         
+      }
+      .contenedorAcordeon P{
+          font-size: 16px;
+          margin-left: 8px;
+            }
+      .acordeon label{
+          font-size: 17px;   
+          padding-left: 15px;   
+      }
+      .acordeon label i{
+      font-size: 30px;
+      margin-left: 6px;
+      }
+       
+    /*media query de footer*/  
+    footer{
+        padding:6px;
+        }
+        .barraI a{
+        font-size: 18px;
+        margin: 17px 17px;
+        }
+        .inferior p{
+            margin-top: 18px;
+            font-size: 15px;
+        }   
+    .redes a{
+        color: rgb(8, 8, 8);
+        letter-spacing: 2px;
+        font-size:20px;
+        }
+    .subir{
+        font-size: 30px;
+        border-radius: 30px;
+        right: 17px;
+        bottom: 17px;
+        height: 35px;
+        width: 35px;
+        }      
+
+
+
+}
+
+
+
+@media only screen and (min-width:1024px){
+/*Media query de acordeon*/  
+    .contenedorAcordeon h2{
+        font-size: 24px;
+        margin-top: 23px;
+        margin-left: 10px;
+    }
+    .contenedorAcordeon P{
+        font-size: 19px;
+        margin-left: 10px;
+    }
+    .acordeon label{
+        font-size: 20px; 
+        padding-left: 20px;     
+    }
+    .acordeon label i{
+        font-size: 32px;
+        margin-left: 8px;
+}   
+    /*media query de footer*/  
+    footer{
+        padding:6px;
+    }
+    .barraI a{
+        font-size: 20px;
+        margin: 30px 30px;
+    }
+    .inferior p{
+        margin-top: 18px;
+        font-size: 15px;
+    }      
+    .redes a{
+        color: rgb(8, 8, 8);
+        letter-spacing: 4px;
+        font-size:25px;
+    }
+    .subir{
+        font-size: 35px;
+        border-radius: 35px;
+        right: 22px;
+        bottom: 22px;
+        height: 40px;
+        width: 40px;
+    }       
+}
