@@ -98,7 +98,6 @@ main {
 .cop img {
   width: 100%;
   height: 90%;
-  padding-top: px;
   padding-left: 1px;
   padding-right: 1px;
   padding-bottom: 1px;
@@ -451,6 +450,17 @@ footer {
 /*inicio de formato de Escribenos*/
 .fondoE {
   background-image: linear-gradient(#98dbc6, gray 80%, white);
+}
+
+/*inicio de formato Trabaja con*/
+#Carousel {
+  width: 45%;
+  position: relative;
+  left: 25%;
+}
+
+.fondoT {
+  background-image: linear-gradient(to right, rgba(228, 234, 236, 0.95) 80%, rgba(59, 172, 229, 0.95)), url(/Imagenes/Helados.jpg);
 }
 
 /*media queries inicia*/
