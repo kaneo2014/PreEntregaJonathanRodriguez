@@ -106,6 +106,11 @@ main {
   grid-row: 1/3;
 }
 
+.cop img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .cop a {
   grid-column: 2/3;
   grid-row: 3/4;
@@ -124,7 +129,7 @@ main {
 /*estilos para la parte del sobre la Empresa*/
 h2 {
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 30px;
   margin-left: 2px;
 }
 
@@ -225,6 +230,7 @@ h2 {
 .parteB1 h2 {
   font-size: 12px;
   padding-left: 2px;
+  margin-top: 3px;
 }
 
 .parteB1 p {
@@ -242,6 +248,7 @@ h2 {
   padding-top: 7px;
   padding-left: 3px;
   font-size: 11px;
+  margin-top: 2px;
 }
 
 .horarios {
@@ -441,6 +448,11 @@ footer {
   margin-top: 1px;
 }
 
+/*inicio de formato de Escribenos*/
+.fondoE {
+  background-image: linear-gradient(#98dbc6, gray 80%, white);
+}
+
 /*media queries inicia*/
 @media only screen and (min-width: 480px) {
   /* media query del contenido principal*/
@@ -507,8 +519,9 @@ footer {
   }
   .parteC1 h2 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 2px;
     font-size: 15px;
+    margin-top: 2px;
   }
   .horarios {
     display: inline-block;
@@ -824,7 +837,7 @@ footer {
   }
   /*media queries Mapa*/
   .map {
-    grid-template-rows: 110px 240px;
+    grid-template-rows: 110px 320px;
   }
   .parteA img {
     height: 70px;

@@ -6,23 +6,121 @@
     <link rel="shortcut icon" href="../Imagenes/Logo.png" type="i77mage/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
     <link rel="stylesheet" href="../CSS/Estilos.css">
     <title>Escribenos</title>
 
 </head>
-<body>
-    <header>
-        <!--Inicio de la barra de Navegacion-->
+<body class="fondoE">
+    <!--Inicio de la barra de Navegacion-->
+    <header id="inicioG">
         <nav class="navbar navbar-expand-lg  navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html"><img src="/Imagenes/Logo.png" width="50px" height="50px" alt=""/>
                 <p><strong>Cream & Coffee</strong></p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#copa"><strong>Copas Especiales</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#crep"><strong>Crepes</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#waff"><strong>Waffles</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#copaI"><strong>Copas infantiles</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#bat"><strong>Batidos</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#jug"><strong>Jugos</strong></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mas..</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Pages/formatoIngreso.html">Ingreso</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Escribenos.html">Escribenos</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Trabajacon.html">Trabaja con Nosotros</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Registro.html">Registro</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-<h1>EN CONSTRUCCION</h1>
-
+    <!--Inicio del formato de escribenos-->
+    <section>
+        <div class=" my-5 col-md-8 mx-auto  bg-light fIngresar">
+            <h1 class="m-5">ESCRIBENOS</h1>
+            <P class="ms-5">Recuerda que enviando este formulario apruebas estar de acuerdo con la ley
+            de protección de datos personales.</P>
+            <div class="form-check ms-5" >
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Acepto Politica de tratamiento de Datos </label>
+            </div>
+            <label for="browser" class="form-label ms-5 pt-4"><strong>Elija su Pais de la Lista:</strong></label>
+            <input class="form-select w-75 ms-5" list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Colombia">
+                <option value="Mexico">
+                <option value="Ecuador">
+                <option value="Brasil">
+                <option value="Peru">
+            </datalist>
+            <div class="mb-3 mt-3 ms-5">
+                <label for="uname" class="form-label"><strong>Nombres y Apellidos</strong></label>
+                <input type="text" class="form-control w-75" id="uname" placeholder="Ingrese Nombre y Apellido" name="uname" required>
+            </div>
+            <div class="mb-3 mt-3 ms-5">
+                <label for="uname" class="form-label"><strong>Email</strong></label>
+                <input type="text" class="form-control w-75" id="uname" placeholder="Ingrese Email" name="uname" required>
+            </div>
+            <div class="mb-3 mt-3 ms-5">
+                <label for="uname" class="form-label"><strong>Asunto</strong></label>
+                <input type="text" class="form-control w-75" id="uname" placeholder="Ingrese el Asunto" name="uname" required>
+                <h6 class="text-secondary">Solicitud, Sugerencia, Queja, Felicitaciones, Evento (Carretino)</h6>
+            </div>
+            <label for="uname" class="form-label ms-5"><strong>Mensaje</strong></label>
+            <div class="input-group w-75  ms-5">
+                <textarea class="form-control form-lg " aria-label="With textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg m-5">Enviar</button>
+        </div>
+    </section>    
+    <!-- inicio de la divicion del footer -->
+    <footer>
+        <div class="barraI">
+            <ul>
+                <li><a href="/Pages/formatoIngreso.html">Ingreso</a></li>
+                <li><a href="/Pages/Trabajacon.html">Trabaja con nosotros</a></li>
+                <li><a href="/Pages/Registro.html">Registro</a></li>
+            </ul>
+        </div>
+        <div class="inferior">
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <p>© Cream & Coffee 2024. Todos los derechos reservados</p>
+        </div>
+        <a href="#inicioG" class="subir">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </footer>
 
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
