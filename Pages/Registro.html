@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
     <link rel="stylesheet" href="../CSS/Estilos.css">
-    <title>Restablecer contraseña</title>
+    <title>Registro</title>
 </head>
-<body>
-    <header>
+<body class= "fondoT">
+    <header id="inicioR">
 <!--Inicio de la barra de Navegacion-->
 <nav class="navbar navbar-expand-lg  navbar-dark">
   <div class="container-fluid">
@@ -54,8 +54,84 @@
   </div>
 </nav>
 </header>
-    <h1>EN CONSTRUCCION</h1>
+     <!--Inicio del formato Registro-->
+  <section>
+    <h1 class="p-4 text-center " > <strong>Registro</strong></h1>
+    <div class="my-2 col-md-6 mx-auto mb-2 h5 bg-light">
+      <div class="d-flex">
+        <div class="  mb-1 mt-3 ms-5">
+          <label for="uname" class="form-label"><strong>Nombres</strong></label>
+          <input type="text" class="form-control w-100" id="uname" placeholder="Ingrese Nombres" name="uname" required>
+        </div>
+        <div class=" mb-4 mt-3 ms-5">
+          <label for="uname" class="form-label"><strong>Apellidos</strong></label>
+          <input type="text" class="form-control w-100" id="uname" placeholder="Ingrese Apellidos" name="uname" required>
+        </div>
+      </div>
+      <div class="form-group mb-2 mt-1 ms-5 d-flex">
+        <label for="exampleFormControlSelect1"><strong>Id: </strong></label>
+        <select class="form-control w-25 me-5 " id="exampleFormControlSelect1">
+          <option>CC</option>
+          <option>Pasport</option>
+        </select>
+        <input type="text" class="form-control w-75 me-5" id="uname" placeholder="000 000 000" name="uname" required>
+      </div>
 
+      <div class=" mb-2 mt-1 ms-5">
+        <label for="uname" class="form-label"><strong>Numero Celular</strong></label>
+        <input type="text" class="form-control w-50" id="uname" placeholder="000 000 000" name="uname" required>
+      </div>
+      <div class=" mb-2 mt-1 ms-5">
+        <label for="uname" class="form-label"><strong>Correo Electronico</strong></label>
+        <input type="text" class="form-control w-50" id="uname" placeholder="Ejemplo@mail.com" name="uname" required>
+      </div>
+      <div class="form-group  mb-2 mt-4 ms-5">
+        <label for="exampleInputPassword1"><strong>Contraseña</strong></label>
+        <input type="password" class="form-control w-50" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group  mb-2 mt-2 ms-5">
+        <label for="exampleInputPassword1"><strong>Contraseña (Confirmacion)</strong></label>
+        <input type="password" class="form-control w-50" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check  mb-2 mt-2 ms-5 d-flex ">
+        <input type="checkbox" class="form-check-input ms-1 " id="exampleCheck1">
+        <label class="form-check-label ms-1" for="exampleCheck1">Acepto que he leído los términos y condiciones del sitio y autorizo el tratamiento de
+          mis datos personales según la política de privacidad.</label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg mt-5 ms-5  w-50 mb-2">Enviar</button>
+    </div>
+  </section>  
+  <div class=" d-flex justify-content-center containerR bg-secondary border border-dark rounded">
+         
+      <h3 class="align-self-center m-3"><strong>Ya tienes Cuenta  ?</strong></h3> <a type="button" href="../Pages/formatoIngreso.html" class=" align-self-center btn btn-lg text-black btn-light border border-dark"><strong>Ingresar </strong></a>
+    </div>
+   <!-- inicio de la divicion del footer -->
+   <footer>
+      <div class="barraI">
+        <ul>
+          <li><a href="../Pages/Escribenos.html">Escribenos</a></li>
+          <li><a href="../Pages/Trabajacon.html">Trabaja con nosotros</a></li>
+          <li><a href="../Pages/Registro.html">Registro</a></li>
+        </ul>
+      </div>
+      <div class="inferior">
+        <div class="redes">
+          <a href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p>© Cream & Coffee 2024. Todos los derechos reservados</p>
+      </div>
+      <a href="#inicioR" class="subir">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </footer>
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

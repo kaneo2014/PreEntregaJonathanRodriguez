@@ -460,7 +460,7 @@ footer {
 }
 
 .fondoT {
-  background-image: linear-gradient(to right, rgba(228, 234, 236, 0.95) 80%, rgba(59, 172, 229, 0.95)), url(/Imagenes/Helados.jpg);
+  background-image: linear-gradient(to right, rgba(228, 234, 236, 0.95) 80%, rgba(59, 172, 229, 0.95)), url(../Imagenes/Helados.jpg);
 }
 
 /*media queries inicia*/
