@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@1,100&display=swap");
 /*font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Nunito', sans-serif;
@@ -425,7 +426,7 @@ footer {
 
 /*inicio de formato de Restablecer*/
 .jumbotrona {
-  background-image: url(/Imagenes/Fondos.jpg);
+  background-image: url(.Imagenes/Fondos.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -463,9 +464,24 @@ footer {
   background-image: linear-gradient(to right, rgba(228, 234, 236, 0.95) 80%, rgba(59, 172, 229, 0.95)), url(../Imagenes/Helados.jpg);
 }
 
+/*inicio de Modal*/
+.containerM {
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+}
+
 /*media queries inicia*/
-@media only screen and (min-width: 480px) {
-  /* media query del contenido principal*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*media queries parte sobre el modal*/
+  .tamaño {
+    display: none;
+  }
+  .tamaño-2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   .contenido h2 {
     height: 20px;
   }
@@ -505,6 +521,13 @@ footer {
   }
   .partes6 a {
     font-size: 14px;
+  }
+  /* media query modal*/
+  .tamaño {
+    display: none;
+  }
+  .tamaño-2 {
+    width: 100%;
   }
   /*media queries Mapa*/
   .parteA img {

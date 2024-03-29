@@ -418,7 +418,7 @@ height: 80%;
 
 /*inicio de formato de Restablecer*/
 .jumbotrona{
-    background-image: url(/Imagenes/Fondos.jpg);
+    background-image: url(.Imagenes/Fondos.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -455,11 +455,29 @@ height: 80%;
 .fondoT{
 background-image:linear-gradient( to right, rgba(228, 234, 236, 0.95) 80%,rgba(59, 172, 229, 0.95)), url(../Imagenes/Helados.jpg) ;
 }
+
+/*inicio de Modal*/
+.containerM {
+    width:100%;
+    height: 100px;
+    overflow-y: scroll;
+    }
+
         /*media queries inicia*/
 
-@media only screen and (min-width:480px){
 
-/* media query del contenido principal*/       
+@media only screen and (min-width:320px) and (max-width:480px){
+
+/*media queries parte sobre el modal*/
+.tamaño{
+    display: none;
+    }
+.tamaño-2{
+    width: 100%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
 
 .contenido h2{
     height: 20px;
@@ -482,8 +500,10 @@ background-image:linear-gradient( to right, rgba(228, 234, 236, 0.95) 80%,rgba(5
 }
 
 .cop a{
-   font-size: 30px;      
+    font-size: 30px;      
 }
+
+
 
 
     /*media queries parte sobre la Empresa*/
@@ -508,7 +528,14 @@ h2{
 .partes6 a{
     font-size:14px;  
 }
-
+/* media query modal*/   
+    
+.tamaño{
+    display: none;
+}
+.tamaño-2{
+    width: 100%;
+}
 /*media queries Mapa*/
 
     
@@ -599,7 +626,6 @@ h2{
 }
 
 @media only screen and (min-width:768px)and (max-width:1024px){
-
 
     main{
         height: 503px;
