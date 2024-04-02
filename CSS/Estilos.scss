@@ -10,9 +10,12 @@ font-family: 'Roboto', sans-serif;*/
     }
 /* los estilos para la barra de navegacion*/ 
 $primary-color:#98dbc6;
+@import "_Nosotros";
 
 .navbar{
     background-color:$primary-color;  
+    
+   
 }
 .navbar-brand p{
     margin: 0px;
@@ -28,7 +31,28 @@ $primary-color:#98dbc6;
     margin-left: 28px;
 }
 
-
+.nosotros{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+        a{ 
+            text-decoration: none;
+            color: black;   
+            font-size: 25px;
+            
+            i{
+                margin-left: 18px;  
+            }
+            p {
+                font-size: 16px;   
+            }
+        }
+        a:hover{
+            text-shadow: 0 2px 5px rgb(17, 17, 18);
+            transition: 0.9s;
+            color: #fff;
+        }
+    }
 /* las modificaciones de la parte del contenido principal*/    
 main{
     height: 310px;
@@ -70,7 +94,7 @@ background-color: white;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows:  20% 60% 20% ;
-    height: 150px;
+    height: 400px;
     border: solid;  
 }
 .cop h3{
@@ -392,7 +416,7 @@ padding-bottom: 5px;
 
 /*inicio de formato de ingreso*/
 .jumbotron{
-background-image: url(/Imagenes/Fondos.jpg);
+background-image: url(../Imagenes/Fondos.jpg);
 background-size: cover;
 background-position: center;
 height: 600px;
@@ -418,7 +442,7 @@ height: 80%;
 
 /*inicio de formato de Restablecer*/
 .jumbotrona{
-    background-image: url(.Imagenes/Fondos.jpg);
+    background-image: url(../Imagenes/Fondos.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -578,6 +602,7 @@ h2{
     
     
   /*Media query de acordeon*/  
+  
     .contenedorAcordeon h2{
       font-size: 18px;
       margin-top: 10px;
@@ -626,7 +651,9 @@ h2{
 }
 
 @media only screen and (min-width:768px)and (max-width:1024px){
-
+    .nosotros{
+        display: none;
+    }
     main{
         height: 503px;
         width: 100%;

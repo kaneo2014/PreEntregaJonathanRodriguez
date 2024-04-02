@@ -1,0 +1,237 @@
+/*Declaracion de variables*/
+$font-h1: 60px;
+$font-h2: 34px;
+$font-h3: 40px;
+$font-h4: 30px;
+$font-h5: 20px;
+$font-h6: 10px;
+
+$color-2:#FDB759;
+
+
+
+.sectionA{
+    height:400px;
+    width: 100%;
+    background-image: url(../Imagenes/Nosotros.jpg);
+    background-size:cover;
+    background-position:center;
+    padding: 10px;
+        h1{
+            font-size:$font-h1;
+            color: black; 
+            margin-top: 50px;
+            text-align: center;
+            text-shadow: 0 4px 0px #ffff;
+            font-weight: 700;
+        }
+        p{
+            text-align: center;
+            text-shadow: 0 4px 0px #d1ef0f;
+            font-weight: 700;
+            font-size:$font-h5;
+            
+        }
+}
+
+.sectionB{
+    height:100px;
+    width: 100%;
+    background-color:$color-2;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    lu{
+        a{  
+            font-size:$font-h5;
+            color: black; 
+            font-weight: 500;
+            text-decoration: none;
+            text-shadow: 0 1px 0px #ffff;
+            margin-left: 20px;
+        }
+    }
+    lu :hover{
+        text-decoration: underline;
+        color: #fff;
+        font-weight: 200;
+    }
+}
+
+.sectionC{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 2500px;
+    .ImagenA{
+        background-image: url(../Imagenes/Filosofia.jpg);
+        background-size:cover;
+        background-position:center;
+        grid-column:1/2 ;
+        grid-row:1/2 ; 
+    }
+    .sectionCa{
+        grid-column:2/3 ;
+        grid-row:1/2 ; 
+        .Filosofia1{
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            p{ 
+                font-size: $font-h5;
+                color:#1d1b1b;
+                background-color: $color-2;
+                width: 110px;
+                padding-left: 10px;
+                border-radius: 5px;
+                font-weight: 600;
+                margin-left: 50px;
+                text-shadow: 0 2px 2px #f4f2f2;
+                border: solid;
+            }
+        }
+        h2{
+            font-size: $font-h1;
+            margin-left: 50px;
+            font-weight: 600;
+        }
+        h2:hover{
+            transform: translate(0, 10px);
+        }
+        p{
+            margin-left: 50px;
+            font-size: $font-h4;
+            text-shadow: 0 2px 2px #676565;
+        }
+    }
+    .ImagenB{
+        background-image: url(../Imagenes/Transformacion.jpg);
+        background-size:cover;
+        background-position:center;
+        grid-column:2/3 ;
+        grid-row:2/3 ; 
+    }
+    .sectionCb{
+        grid-column:1/2 ;
+        grid-row:2/3 ; 
+        .Filosofia1{
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            p{ 
+                font-size: $font-h5;
+                color:#1d1b1b;
+                background-color: $color-2;
+                width: 110px;
+                padding-left: 10px;
+                border-radius: 5px;
+                font-weight: 600;
+                margin-left: 50px;
+                text-shadow: 0 2px 2px #f4f2f2;
+                border: solid;
+            }
+        }
+        h2{
+            font-size: $font-h1;
+            margin-left: 50px;
+            font-weight: 600;
+        }
+        h2:hover{
+            transform: translate(0, 10px);
+        }
+        p{
+            margin-left: 50px;
+            font-size: $font-h4;
+            text-shadow: 0 2px 2px #121212;
+        }
+    }
+    .ImagenC{
+        background-image: url(../Imagenes/Historia.jpg);
+        background-size:cover;
+        background-position:center;
+        grid-column:1/2 ;
+        grid-row:3/4 ; 
+    }
+    .sectionCc{
+        grid-column:2/3 ;
+        grid-row:3/4 ; 
+        .Filosofia1{
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            p{ 
+                font-size: $font-h5;
+                color:#1d1b1b;
+                background-color: $color-2;
+                width: 110px;
+                padding-left: 10px;
+                border-radius: 5px;
+                font-weight: 600;
+                margin-left: 50px;
+                text-shadow: 0 2px 2px #f4f2f2;
+                border: solid;
+            }
+        }
+        h2{
+            font-size: $font-h1;
+            margin-left: 50px;
+            font-weight: 600;
+        }
+        h2:hover{
+            transform: translate(0, 10px);
+        }
+        p{
+            margin-left: 50px;
+            font-size: $font-h4;
+            text-shadow: 0 2px 2px #121212;
+        }
+    }
+    .ImagenD{
+        background-image: url(../Imagenes/proposito.png);
+        background-size:cover;
+        background-position:center;
+        grid-column:2/3 ;
+        grid-row:4/5 ; 
+    }
+    .sectionCd{
+        grid-column:1/2 ;
+        grid-row:4/5 ; 
+        .Filosofia1{
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            p{ 
+                font-size: $font-h5;
+                color:#1d1b1b;
+                background-color: $color-2;
+                width: 110px;
+                padding-left: 10px;
+                border-radius: 5px;
+                font-weight: 600;
+                margin-left: 50px;
+                text-shadow: 0 2px 2px #f4f2f2;
+                border: solid;
+            }
+        }
+        h2{
+            font-size: $font-h1;
+            margin-left: 50px;
+            font-weight: 600;
+        }
+        h2:hover{
+            transform: translate(0, 10px);
+        }
+        p{
+            margin-left: 50px;
+            font-size: $font-h4;
+            text-shadow: 0 2px 2px #121212;
+        }
+    }
+}   
+
+@for $in from 1 through 4{
+    .bucle-#{$in}{
+        background-color: lighten($primary-color, $in * 6%);
+    }
+}
+
