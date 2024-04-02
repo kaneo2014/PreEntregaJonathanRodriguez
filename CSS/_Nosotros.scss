@@ -61,8 +61,8 @@ $color-2:#FDB759;
 .sectionC{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
-    height: 2500px;
+    grid-template-rows: 23% 25% 25% 27%;
+    height: 3000px;
     .ImagenA{
         background-image: url(../Imagenes/Filosofia.jpg);
         background-size:cover;
@@ -235,3 +235,442 @@ $color-2:#FDB759;
     }
 }
 
+
+@media only screen and (min-width:0px) and (max-width:480px){
+    .sectionA{
+        height:150px;
+        padding: 5px;
+            h1{
+                font-size:40px;
+                color: black; 
+                margin-top: 30px;
+            }
+            p{
+                font-size:18px;
+                
+            }
+    }
+
+
+    .sectionB{
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        
+        lu{
+            a{  
+                font-size:10px;
+                margin-left: 5px;
+            }
+        }
+    }
+    .sectionC{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows:  12% 13% 12% 13% 12% 13% 11% 14%;
+        height: 2000px;
+        .ImagenA{
+            grid-column:1/5 ;
+            grid-row:1/2 ; 
+        }
+        .sectionCa{
+            grid-column:1/5 ;
+            grid-row:2/3 ; 
+            .Filosofia1{
+                margin-top: 5px;
+                margin-bottom: 2px;
+                margin-left: 1px;
+                p{ 
+                    font-size: 10px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    
+                }
+            }
+            h2{
+                font-size: 30px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+            p{
+                margin-left: 10px;
+                font-size: 15px;
+            }
+        }
+        .ImagenB{
+            grid-column:1/5 ;
+            grid-row:3/4 ; 
+        }
+        .sectionCb{
+            grid-column:1/5 ;
+            grid-row:4/5;
+            .Filosofia1{
+                margin-top: 5px;
+                margin-bottom: 2px;
+                margin-left: 1px;
+                p{ 
+                    font-size: 10px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 30px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+            p{
+                margin-left: 10px;
+                font-size: 15px;
+            }
+        }
+        .ImagenC{
+            grid-column:1/5 ;
+            grid-row:5/6 ; 
+        }
+        .sectionCc{
+            grid-column:1/5 ;
+            grid-row:6/7 ; 
+            .Filosofia1{
+                margin-top: 5px;
+                margin-bottom: 2px;
+                margin-left: 1px;
+                p{ 
+                    font-size: 10px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 30px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+            p{
+                margin-left: 10px;
+                font-size: 15px;
+            }
+        }
+        .ImagenD{
+            background-position:center;
+            grid-column:1/5 ;
+            grid-row:7/8 ; 
+        }
+        .sectionCd{
+            grid-column:1/5 ;
+            grid-row:8/9 ; 
+            .Filosofia1{
+                margin-top: 5px;
+                margin-bottom: 2px;
+                margin-left: 1px;
+                p{ 
+                    font-size: 10px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 30px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+            p{
+                margin-left: 10px;
+                font-size: 15px;
+            }
+        }
+    }   
+}
+
+
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .sectionA{
+        height:270px;
+        padding: 10px;
+            h1{
+                font-size:45px;
+                margin-top: 30px;
+            }
+            p{
+                font-size:20px;
+                
+            }
+    }
+
+    .sectionB{
+        height: 70px;
+        padding-top: 30px;
+        padding-bottom: 2px;
+        
+        lu{
+            a{  
+                font-size:18px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .sectionC{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows:  12.5% 12% 13% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        height: 2500px;
+        .ImagenA{
+            grid-column:1/5 ;
+            grid-row:1/2 ; 
+        }
+        .sectionCa{
+            grid-column:1/5 ;
+            grid-row:2/3 ; 
+            .Filosofia1{
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 2px;
+                p{ 
+                    font-size: 18px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    
+                }
+            }
+            h2{
+                font-size: 40px;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+        .ImagenB{
+            grid-column:1/5 ;
+            grid-row:3/4 ; 
+        }
+        .sectionCb{
+            grid-column:1/5 ;
+            grid-row:4/5;
+            .Filosofia1{
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 2px;
+                p{ 
+                    font-size: 18px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 40px;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+        .ImagenC{
+            grid-column:1/5 ;
+            grid-row:5/6 ; 
+        }
+        .sectionCc{
+            grid-column:1/5 ;
+            grid-row:6/7 ; 
+            .Filosofia1{
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 2px;
+                p{ 
+                    font-size: 18px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 40px;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+        .ImagenD{
+            background-position:center;
+            grid-column:1/5 ;
+            grid-row:7/8 ; 
+        }
+        .sectionCd{
+            grid-column:1/5 ;
+            grid-row:8/9 ; 
+            .Filosofia1{
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 2px;
+                p{ 
+                    font-size: 18px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+            }
+            h2{
+                font-size: 40px;
+                margin-left: 40px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 20px;
+                font-size: 19px;
+            }
+        }
+    }   
+}
+
+@media only screen and (min-width:768px)and (max-width:1024px){
+    .sectionC{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows:  12.5% 12% 13% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        height: 2950px;
+        .ImagenA{
+            grid-column:1/5 ;
+            grid-row:1/2 ; 
+        }
+        .sectionCa{
+            grid-column:1/5 ;
+            grid-row:2/3 ; 
+            .Filosofia1{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                p{ 
+                    font-size: $font-h5;
+                    width: 110px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                }
+            }
+            h2{
+                font-size: $font-h1;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+        }
+        .ImagenB{
+            grid-column:1/5 ;
+            grid-row:3/4 ; 
+        }
+        .sectionCb{
+            grid-column:1/5 ;
+            grid-row:4/5;
+            .Filosofia1{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                p{ 
+                    font-size: $font-h5;
+                    width: 110px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                }
+            }
+            h2{
+                font-size: $font-h1;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+        }
+        .ImagenC{
+            grid-column:1/5 ;
+            grid-row:5/6 ; 
+        }
+        .sectionCc{
+            grid-column:1/5 ;
+            grid-row:6/7 ; 
+            .Filosofia1{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                p{ 
+                    font-size: $font-h5;
+                    width: 110px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                }
+            }
+            h2{
+                font-size: $font-h1;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+        }
+        .ImagenD{
+            background-position:center;
+            grid-column:1/5 ;
+            grid-row:7/8 ; 
+        }
+        .sectionCd{
+            grid-column:1/5 ;
+            grid-row:8/9 ; 
+            .Filosofia1{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                p{ 
+                    font-size: $font-h5;
+                    width: 110px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                }
+            }
+            h2{
+                font-size: $font-h1;
+                margin-left: 40px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            p{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+        }
+    }   
+
+
+
+
+}    

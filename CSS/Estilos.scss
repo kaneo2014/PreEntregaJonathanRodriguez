@@ -85,7 +85,7 @@ background-color: white;
 
 .copaE{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows:  150px;
     column-gap: 1%;
     
@@ -701,6 +701,10 @@ h2{
         margin-left: 10px;
     }
     
+    .cop img{
+        height: 60%;
+        width: 90%;  
+    }
     .cop h3{
         font-size: 19px;
         
