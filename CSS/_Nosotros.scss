@@ -237,6 +237,17 @@ $color-2:#FDB759;
 
 
 @media only screen and (min-width:0px) and (max-width:480px){
+    
+/*media queries parte sobre el modal*/
+.tamaño{
+    display: none;
+    }
+.tamaño-2{
+    width: 100%;
+    }
+
+    
+    
     .sectionA{
         height:150px;
         padding: 5px;
@@ -392,6 +403,14 @@ $color-2:#FDB759;
 
 
 @media only screen and (min-width:480px) and (max-width:768px) {
+    /* media query modal*/   
+    
+.tamaño{
+    display: none;
+}
+.tamaño-2{
+    width: 100%;
+}
     .sectionA{
         height:270px;
         padding: 10px;

@@ -245,6 +245,13 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
+  /*media queries parte sobre el modal*/
+  .tamaño {
+    display: none;
+  }
+  .tamaño-2 {
+    width: 100%;
+  }
   .sectionA {
     height: 150px;
     padding: 5px;
@@ -390,6 +397,13 @@ font-family: 'Roboto', sans-serif;*/
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* media query modal*/
+  .tamaño {
+    display: none;
+  }
+  .tamaño-2 {
+    width: 100%;
+  }
   .sectionA {
     height: 270px;
     padding: 10px;
@@ -734,7 +748,7 @@ main {
 
 .copaE {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 150px;
   column-gap: 1%;
 }
@@ -743,7 +757,7 @@ main {
   display: grid;
   grid-template-columns: 70% 30%;
   grid-template-rows: 20% 60% 20%;
-  height: 400px;
+  height: 150px;
   border: solid;
 }
 
@@ -1143,16 +1157,7 @@ footer {
 }
 
 /*media queries inicia*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  /*media queries parte sobre el modal*/
-  .tamaño {
-    display: none;
-  }
-  .tamaño-2 {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .contenido h2 {
     height: 20px;
   }
@@ -1192,13 +1197,6 @@ footer {
   }
   .partes6 a {
     font-size: 14px;
-  }
-  /* media query modal*/
-  .tamaño {
-    display: none;
-  }
-  .tamaño-2 {
-    width: 100%;
   }
   /*media queries Mapa*/
   .parteA img {
